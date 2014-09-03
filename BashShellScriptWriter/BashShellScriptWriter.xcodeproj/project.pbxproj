@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		498A2DFB19B73D9E00248B20 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 498A2DFA19B73D9E00248B20 /* Cocoa.framework */; };
+		498A2E0519B73D9E00248B20 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 498A2E0319B73D9E00248B20 /* InfoPlist.strings */; };
+		498A2E0719B73D9E00248B20 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 498A2E0619B73D9E00248B20 /* main.m */; };
+		498A2E0B19B73D9E00248B20 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 498A2E0919B73D9E00248B20 /* Credits.rtf */; };
+		498A2E0E19B73D9E00248B20 /* ALAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 498A2E0D19B73D9E00248B20 /* ALAppDelegate.m */; };
+		498A2E1119B73D9E00248B20 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 498A2E0F19B73D9E00248B20 /* MainMenu.xib */; };
+		498A2E1319B73D9E00248B20 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 498A2E1219B73D9E00248B20 /* Images.xcassets */; };
+		498A2E1A19B73D9E00248B20 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 498A2E1919B73D9E00248B20 /* XCTest.framework */; };
+		498A2E1B19B73D9E00248B20 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 498A2DFA19B73D9E00248B20 /* Cocoa.framework */; };
+		498A2E2319B73D9E00248B20 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 498A2E2119B73D9E00248B20 /* InfoPlist.strings */; };
+		498A2E2519B73D9E00248B20 /* BashShellScriptWriterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 498A2E2419B73D9E00248B20 /* BashShellScriptWriterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		498A2E1C19B73D9E00248B20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 498A2DEF19B73D9E00248B20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 498A2DF619B73D9E00248B20;
+			remoteInfo = BashShellScriptWriter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		498A2DF719B73D9E00248B20 /* BashShellScriptWriter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BashShellScriptWriter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		498A2DFA19B73D9E00248B20 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		498A2DFD19B73D9E00248B20 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		498A2DFE19B73D9E00248B20 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		498A2DFF19B73D9E00248B20 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		498A2E0219B73D9E00248B20 /* BashShellScriptWriter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BashShellScriptWriter-Info.plist"; sourceTree = "<group>"; };
+		498A2E0419B73D9E00248B20 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		498A2E0619B73D9E00248B20 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		498A2E0819B73D9E00248B20 /* BashShellScriptWriter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BashShellScriptWriter-Prefix.pch"; sourceTree = "<group>"; };
+		498A2E0A19B73D9E00248B20 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		498A2E0C19B73D9E00248B20 /* ALAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALAppDelegate.h; sourceTree = "<group>"; };
+		498A2E0D19B73D9E00248B20 /* ALAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALAppDelegate.m; sourceTree = "<group>"; };
+		498A2E1019B73D9E00248B20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		498A2E1219B73D9E00248B20 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		498A2E1819B73D9E00248B20 /* BashShellScriptWriterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BashShellScriptWriterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		498A2E1919B73D9E00248B20 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		498A2E2019B73D9E00248B20 /* BashShellScriptWriterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BashShellScriptWriterTests-Info.plist"; sourceTree = "<group>"; };
+		498A2E2219B73D9E00248B20 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		498A2E2419B73D9E00248B20 /* BashShellScriptWriterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BashShellScriptWriterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		498A2DF419B73D9E00248B20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				498A2DFB19B73D9E00248B20 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		498A2E1519B73D9E00248B20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				498A2E1B19B73D9E00248B20 /* Cocoa.framework in Frameworks */,
+				498A2E1A19B73D9E00248B20 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		498A2DEE19B73D9E00248B20 = {
+			isa = PBXGroup;
+			children = (
+				498A2E0019B73D9E00248B20 /* BashShellScriptWriter */,
+				498A2E1E19B73D9E00248B20 /* BashShellScriptWriterTests */,
+				498A2DF919B73D9E00248B20 /* Frameworks */,
+				498A2DF819B73D9E00248B20 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		498A2DF819B73D9E00248B20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				498A2DF719B73D9E00248B20 /* BashShellScriptWriter.app */,
+				498A2E1819B73D9E00248B20 /* BashShellScriptWriterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		498A2DF919B73D9E00248B20 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				498A2DFA19B73D9E00248B20 /* Cocoa.framework */,
+				498A2E1919B73D9E00248B20 /* XCTest.framework */,
+				498A2DFC19B73D9E00248B20 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		498A2DFC19B73D9E00248B20 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				498A2DFD19B73D9E00248B20 /* AppKit.framework */,
+				498A2DFE19B73D9E00248B20 /* CoreData.framework */,
+				498A2DFF19B73D9E00248B20 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		498A2E0019B73D9E00248B20 /* BashShellScriptWriter */ = {
+			isa = PBXGroup;
+			children = (
+				498A2E0C19B73D9E00248B20 /* ALAppDelegate.h */,
+				498A2E0D19B73D9E00248B20 /* ALAppDelegate.m */,
+				498A2E0F19B73D9E00248B20 /* MainMenu.xib */,
+				498A2E1219B73D9E00248B20 /* Images.xcassets */,
+				498A2E0119B73D9E00248B20 /* Supporting Files */,
+			);
+			path = BashShellScriptWriter;
+			sourceTree = "<group>";
+		};
+		498A2E0119B73D9E00248B20 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				498A2E0219B73D9E00248B20 /* BashShellScriptWriter-Info.plist */,
+				498A2E0319B73D9E00248B20 /* InfoPlist.strings */,
+				498A2E0619B73D9E00248B20 /* main.m */,
+				498A2E0819B73D9E00248B20 /* BashShellScriptWriter-Prefix.pch */,
+				498A2E0919B73D9E00248B20 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		498A2E1E19B73D9E00248B20 /* BashShellScriptWriterTests */ = {
+			isa = PBXGroup;
+			children = (
+				498A2E2419B73D9E00248B20 /* BashShellScriptWriterTests.m */,
+				498A2E1F19B73D9E00248B20 /* Supporting Files */,
+			);
+			path = BashShellScriptWriterTests;
+			sourceTree = "<group>";
+		};
+		498A2E1F19B73D9E00248B20 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				498A2E2019B73D9E00248B20 /* BashShellScriptWriterTests-Info.plist */,
+				498A2E2119B73D9E00248B20 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		498A2DF619B73D9E00248B20 /* BashShellScriptWriter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 498A2E2819B73D9E00248B20 /* Build configuration list for PBXNativeTarget "BashShellScriptWriter" */;
+			buildPhases = (
+				498A2DF319B73D9E00248B20 /* Sources */,
+				498A2DF419B73D9E00248B20 /* Frameworks */,
+				498A2DF519B73D9E00248B20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BashShellScriptWriter;
+			productName = BashShellScriptWriter;
+			productReference = 498A2DF719B73D9E00248B20 /* BashShellScriptWriter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		498A2E1719B73D9E00248B20 /* BashShellScriptWriterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 498A2E2B19B73D9E00248B20 /* Build configuration list for PBXNativeTarget "BashShellScriptWriterTests" */;
+			buildPhases = (
+				498A2E1419B73D9E00248B20 /* Sources */,
+				498A2E1519B73D9E00248B20 /* Frameworks */,
+				498A2E1619B73D9E00248B20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				498A2E1D19B73D9E00248B20 /* PBXTargetDependency */,
+			);
+			name = BashShellScriptWriterTests;
+			productName = BashShellScriptWriterTests;
+			productReference = 498A2E1819B73D9E00248B20 /* BashShellScriptWriterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		498A2DEF19B73D9E00248B20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AL;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Andrew Lear";
+				TargetAttributes = {
+					498A2E1719B73D9E00248B20 = {
+						TestTargetID = 498A2DF619B73D9E00248B20;
+					};
+				};
+			};
+			buildConfigurationList = 498A2DF219B73D9E00248B20 /* Build configuration list for PBXProject "BashShellScriptWriter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 498A2DEE19B73D9E00248B20;
+			productRefGroup = 498A2DF819B73D9E00248B20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				498A2DF619B73D9E00248B20 /* BashShellScriptWriter */,
+				498A2E1719B73D9E00248B20 /* BashShellScriptWriterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		498A2DF519B73D9E00248B20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				498A2E0519B73D9E00248B20 /* InfoPlist.strings in Resources */,
+				498A2E1319B73D9E00248B20 /* Images.xcassets in Resources */,
+				498A2E0B19B73D9E00248B20 /* Credits.rtf in Resources */,
+				498A2E1119B73D9E00248B20 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		498A2E1619B73D9E00248B20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				498A2E2319B73D9E00248B20 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		498A2DF319B73D9E00248B20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				498A2E0719B73D9E00248B20 /* main.m in Sources */,
+				498A2E0E19B73D9E00248B20 /* ALAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		498A2E1419B73D9E00248B20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				498A2E2519B73D9E00248B20 /* BashShellScriptWriterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		498A2E1D19B73D9E00248B20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 498A2DF619B73D9E00248B20 /* BashShellScriptWriter */;
+			targetProxy = 498A2E1C19B73D9E00248B20 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		498A2E0319B73D9E00248B20 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				498A2E0419B73D9E00248B20 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		498A2E0919B73D9E00248B20 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				498A2E0A19B73D9E00248B20 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		498A2E0F19B73D9E00248B20 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				498A2E1019B73D9E00248B20 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		498A2E2119B73D9E00248B20 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				498A2E2219B73D9E00248B20 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		498A2E2619B73D9E00248B20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		498A2E2719B73D9E00248B20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		498A2E2919B73D9E00248B20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BashShellScriptWriter/BashShellScriptWriter-Prefix.pch";
+				INFOPLIST_FILE = "BashShellScriptWriter/BashShellScriptWriter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		498A2E2A19B73D9E00248B20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BashShellScriptWriter/BashShellScriptWriter-Prefix.pch";
+				INFOPLIST_FILE = "BashShellScriptWriter/BashShellScriptWriter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		498A2E2C19B73D9E00248B20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BashShellScriptWriter.app/Contents/MacOS/BashShellScriptWriter";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BashShellScriptWriter/BashShellScriptWriter-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BashShellScriptWriterTests/BashShellScriptWriterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		498A2E2D19B73D9E00248B20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BashShellScriptWriter.app/Contents/MacOS/BashShellScriptWriter";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BashShellScriptWriter/BashShellScriptWriter-Prefix.pch";
+				INFOPLIST_FILE = "BashShellScriptWriterTests/BashShellScriptWriterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		498A2DF219B73D9E00248B20 /* Build configuration list for PBXProject "BashShellScriptWriter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				498A2E2619B73D9E00248B20 /* Debug */,
+				498A2E2719B73D9E00248B20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		498A2E2819B73D9E00248B20 /* Build configuration list for PBXNativeTarget "BashShellScriptWriter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				498A2E2919B73D9E00248B20 /* Debug */,
+				498A2E2A19B73D9E00248B20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		498A2E2B19B73D9E00248B20 /* Build configuration list for PBXNativeTarget "BashShellScriptWriterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				498A2E2C19B73D9E00248B20 /* Debug */,
+				498A2E2D19B73D9E00248B20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 498A2DEF19B73D9E00248B20 /* Project object */;
+}
