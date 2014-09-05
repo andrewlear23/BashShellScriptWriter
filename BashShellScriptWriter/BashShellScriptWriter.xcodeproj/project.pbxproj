@@ -18,6 +18,8 @@
 		498A2E1B19B73D9E00248B20 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 498A2DFA19B73D9E00248B20 /* Cocoa.framework */; };
 		498A2E2319B73D9E00248B20 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 498A2E2119B73D9E00248B20 /* InfoPlist.strings */; };
 		498A2E2519B73D9E00248B20 /* BashShellScriptWriterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 498A2E2419B73D9E00248B20 /* BashShellScriptWriterTests.m */; };
+		498D9E2A19B9D55800AF195B /* ALMainWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 498D9E2919B9D55800AF195B /* ALMainWindow.m */; };
+		498D9E2D19B9DF6B00AF195B /* ALDragDropTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 498D9E2C19B9DF6B00AF195B /* ALDragDropTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,10 @@
 		498A2E2019B73D9E00248B20 /* BashShellScriptWriterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BashShellScriptWriterTests-Info.plist"; sourceTree = "<group>"; };
 		498A2E2219B73D9E00248B20 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		498A2E2419B73D9E00248B20 /* BashShellScriptWriterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BashShellScriptWriterTests.m; sourceTree = "<group>"; };
+		498D9E2819B9D55800AF195B /* ALMainWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALMainWindow.h; sourceTree = "<group>"; };
+		498D9E2919B9D55800AF195B /* ALMainWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALMainWindow.m; sourceTree = "<group>"; };
+		498D9E2B19B9DF6B00AF195B /* ALDragDropTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALDragDropTextView.h; sourceTree = "<group>"; };
+		498D9E2C19B9DF6B00AF195B /* ALDragDropTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALDragDropTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,10 @@
 			children = (
 				498A2E0C19B73D9E00248B20 /* ALAppDelegate.h */,
 				498A2E0D19B73D9E00248B20 /* ALAppDelegate.m */,
+				498D9E2819B9D55800AF195B /* ALMainWindow.h */,
+				498D9E2919B9D55800AF195B /* ALMainWindow.m */,
+				498D9E2B19B9DF6B00AF195B /* ALDragDropTextView.h */,
+				498D9E2C19B9DF6B00AF195B /* ALDragDropTextView.m */,
 				498A2E0F19B73D9E00248B20 /* MainMenu.xib */,
 				498A2E1219B73D9E00248B20 /* Images.xcassets */,
 				498A2E0119B73D9E00248B20 /* Supporting Files */,
@@ -253,8 +263,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				498D9E2A19B9D55800AF195B /* ALMainWindow.m in Sources */,
 				498A2E0719B73D9E00248B20 /* main.m in Sources */,
 				498A2E0E19B73D9E00248B20 /* ALAppDelegate.m in Sources */,
+				498D9E2D19B9DF6B00AF195B /* ALDragDropTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,6 +479,7 @@
 				498A2E2A19B73D9E00248B20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		498A2E2B19B73D9E00248B20 /* Build configuration list for PBXNativeTarget "BashShellScriptWriterTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +488,7 @@
 				498A2E2D19B73D9E00248B20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
